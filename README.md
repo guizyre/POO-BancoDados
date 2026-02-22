@@ -75,8 +75,12 @@
 CREATE TABLE pessoa (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100),
-    email VARCHAR(100)
-    -- Outros atributos
+    profissao VARCHAR(100),
+    altura DOUBLE,
+    peso DOUBLE,
+    nascimento DATE,
+    sexo VARCHAR(1),
+    nacionalidade VARCHAR(50)
 );
 </pre>
 
